@@ -1,4 +1,11 @@
-var fs = require('fs');
-var text = fs.readFileSync('./test.txt', { encoding: 'utf8'});
-console.log(text);
-fs.writeFileSync('./testWrite.txt','My name is Pham Thanh Long');
+var readlineSync = require('readline-sync');
+var pet = {};
+var name = readlineSync.question('Your pet name: ');
+pet.name = name;
+var gender = readlineSync.question('Pet gender (Male/Female): ');
+pet.gender = gender;
+var age = readlineSync.question('Pet age: ');
+pet.age = parseInt(age);
+var weight = readlineSync.question('Pet weight: ');
+pet.weight = parseInt(weight);
+console.log(pet);

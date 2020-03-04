@@ -1,0 +1,22 @@
+{
+  "name": "javascrip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "helloWorld.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pthlong99/JavaScrip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pthlong99/JavaScrip/issues"
+  },
+  "homepage": "https://github.com/pthlong99/JavaScrip#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
